@@ -1,0 +1,53 @@
+# Basic
+title: Happy's Blog
+subtitle: 
+welcome_message: <a href="https://github.com/happy-Su" target="_blank">My GitHub</a>
+description: iOS Developer
+
+url: "https://happy-su.github.io/"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: plain
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    github: happy-Su
+    mail: happysu713@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
+
+# supported colors: blue, green, purple, red, orange, clear or slate. If you need clear, leave it empty.
+cover_color: green
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+
